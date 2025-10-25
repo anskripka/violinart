@@ -15,13 +15,13 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-900 text-white">
       <div className="text-center">
-        <h1 className="text-4xl font-bold mb-8">Ідентичність Тоні Віолін</h1>  {/* Українська назва */}
+        <h1 className="text-4xl font-bold mb-8">Ідентичність Тоні Віолін</h1>
         <Identity address={yourAddress} schemaId={schemaId}>
           <div className="flex flex-col items-center space-y-4">
             <Avatar className="w-32 h-32 rounded-full" />
             <div className="flex items-center space-x-2">
-              <Name className="text-2xl font-bold" />  {/* ENS: tonyviolin.base.eth */}
-              <Badge tooltip="Верифікований Coinbase" className="bg-blue-500 px-2 py-1 rounded" />  {/* UA tooltip */}
+              <Name className="text-2xl font-bold" />
+              <Badge tooltip="Верифікований Coinbase" className="bg-blue-500 px-2 py-1 rounded" />
             </div>
             <Address className="text-gray-400" />
             <div className="space-y-2 mt-4 text-sm text-gray-300">
@@ -32,7 +32,7 @@ export default function Home() {
             </div>
           </div>
         </Identity>
-        <p className="mt-8 text-gray-300">Створено на Base з OnchainKit</p>  {/* UA */}
+<p className="mt-8 text-gray-300">Built on Base with OnchainKit</p>        
       </div>
     </main>
   )
