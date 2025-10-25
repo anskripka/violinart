@@ -1,0 +1,27 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Tony's Violin Identity",
+    "subtitle": "ENS & Social Profile",
+    "description": "Showcase my ENS name tonyviolin.base.eth, Coinbase verified badge, and socials (@tonyv on Farcaster, @SkrypkaAnton on X, anskripka on GitHub) from violinart.site.",
+    "primaryCategory": "social",
+    "tags": ["ens", "identity", "profile", "music", "violin"],
+    "iconUrl": "https://violinart.site/icon.png",
+    "splashImageUrl": "https://violinart.site/splash.png",
+    "splashBackgroundColor": "#000000",
+    "homeUrl": "https://violinart.site",
+    "heroImageUrl": "https://violinart.site/hero.png",
+    "screenshotUrls": ["https://violinart.site/screenshot-portrait.png"],
+    "webhookUrl": "https://violinart.site/api/webhook",
+    "tagline": "Own your digital violin on Base",
+    "ogTitle": "Tony Violin | ENS Profile",
+    "ogDescription": "View my Base ENS tonyviolin.base.eth and socials on violinart.site",
+    "ogImageUrl": "https://violinart.site/og.png",
+    "noindex": false
+  }
+}
