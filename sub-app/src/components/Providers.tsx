@@ -1,6 +1,6 @@
 'use client'
 
-import { ChainProvider } from '@coinbase/onchainkit'
+import { OnchainKitProvider } from '@coinbase/onchainkit'  // Правильний провайдер
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { base } from 'wagmi/chains'
 import { WagmiProvider } from 'wagmi'
@@ -20,9 +20,9 @@ export function Providers({ children }: { children: ReactNode }) {
   return (
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
-        <ChainProvider defaultChainId={base.id}>
+        <OnchainKitProvider defaultChain={base}>  // Правильний провайдер з defaultChain
           {children}
-        </ChainProvider>
+        </OnchainKitProvider>
       </QueryClientProvider>
     </WagmiProvider>
   )
